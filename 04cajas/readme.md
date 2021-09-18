@@ -28,17 +28,17 @@ modelo de cajas
 
 elementos principales
 
-# content   contenido del centro de la caja
-# padding   entre el contenido y el borde
-# border    fuera del padding  
-# margin    fuera del border
+ content   contenido del centro de la caja <br/>
+ padding   entre el contenido y el borde  <br/>
+ border    fuera del padding   <br/>
+ margin    fuera del border <br/>
 
 sus modificadores en orden son
 
-# line-height
-# padding
-# border
-# margin
+ line-height <br/>
+ padding  <br/>
+ border  <br/>
+ margin <br/>
 
 ejemplos de uso de margin y padding
 
