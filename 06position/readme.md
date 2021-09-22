@@ -23,14 +23,8 @@ ABSOLUTE indica desplazamiento top bottom right left desde el borde del contened
 
 solo si el elemento padre esta posicionado( relative ) sino sera el viewport la referencia
 <br/>
-
-FIXED 
-<br/>
-
-RELATIVE se mueve el elemento top bottom left right desde su posicion original
-<br/>
-
 truco para poner al centro un elmento absolute
+
 ```
 .caja5{
     background: green;
@@ -41,3 +35,20 @@ truco para poner al centro un elmento absolute
     margin: auto;
 }
 ```
+
+FIXED  elemento fijo se usa para publicidad o nabvar que se yo..
+<br/>
+
+STICKY elemento queda fijo hasta donde le llega el scroll y puede estar un poca mas arriba de la cabecera de la pagina dependiendo cuando le indiquemos top
+
+ejemplo sticky
+
+```
+.caja-sticky{
+    background-color: yellow;
+    position: sticky;
+    top: 10px;
+}
+```
+<br/>
+
