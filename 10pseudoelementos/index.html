@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>curso css</title>
+</head>
+
+<body>
+ <div>
+     <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, culpa, tempora similique quasi ex quis debitis quibusdam inventore molestias eum repellendus architecto perferendis earum, quidem quos unde odit incidunt dicta?
+        Perspiciatis provident officiis accusamus aliquam a consectetur veniam omnis. Ducimus nesciunt ex provident quas necessitatibus? Quia blanditiis neque enim suscipit itaque laborum nisi autem. Quas, doloribus cumque. Dignissimos, beatae fuga.
+        Odit vitae est recusandae, illum accusantium laboriosam veritatis ipsam placeat iure? Quidem perspiciatis, obcaecati adipisci hic architecto ea fugit libero beatae. Eveniet illo autem quam beatae rerum accusantium animi totam!
+        Consequatur quisquam temporibus, dolorum nulla impedit eos hic laboriosam, voluptatibus sint, porro necessitatibus libero? Perferendis, ipsa impedit? Vero corrupti illum voluptas molestiae atque, a, ut, aliquid excepturi enim ea nobis.
+        Dolorum ab repudiandae incidunt. Repudiandae, ratione? Quod, quo obcaecati. Deserunt cum ipsam officia neque vero nihil facere possimus laudantium dolor? Possimus vero reiciendis, veniam ducimus ipsa alias natus nostrum itaque! 
+     </p>
+     <input type="text" name="" id="" placeholder="ingrese su nombre aqui">
+
+     <b>
+         hola perro como estas
+     </b>
+ </div>   
+ 
+  
+</body>
+
+</html>
+
+<style>
+
+
+div{    
+   width:800px;
+   height: 700px;
+   margin: 20px auto;
+   background: red;
+   padding: 20px ;
+}
+
+p{
+    text-align: center;
+}
+p::first-line{
+background: blue;
+font-family:sans-serif;
+
+}
+
+p::first-letter{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+input::placeholder{
+    color: red;
+    font-family:  Haettenschweiler;
+    font-size: 18px;
+}
+
+p::selection{
+    color: yellow;
+}
+
+b{
+    font-size: 20px;
+    color:green;
+    
+}
+
+b::before{
+    content: "esto es lo que no existe en el doom";
+    color: aqua;
+    
+}
+
+</style>
